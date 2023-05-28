@@ -1,1 +1,64 @@
 /*TODO add css lol*/
+
+/*universal selector*/
+
+* {
+    font-family: sans-serif;
+}
+
+/*element selectors*/
+
+body {
+    background-color: rgb(94, 191, 248);
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: blue;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+img{
+    width: 400px;
+    border: 3px solid black;
+}
+
+figcaption{
+    margin-left: 170px;
+}
+
+form {
+    background-color: rgb(22, 174, 201);
+    padding: 10px;
+    border: 3px solid black;
+}
+
+/*class selectors*/
+
+.inline {
+    display: inline;
+}
+
+.link {
+    margin-left: 30px;
+}
+
+/*ID selectors*/
+
+#image-one {
+    margin-top: 70px;
+}
